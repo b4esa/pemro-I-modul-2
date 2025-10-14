@@ -15,6 +15,6 @@ scanf("%f", &xx);
 printf("y : ");
 scanf("%f", &yy);
 has = (aa-bb)*(ii/jj)-(xx+yy); 
-printf("Hasilnya adalah \"%.3f\" ", has);
+printf("Hasilnya adalah %.3f ", has);
 return 0;
 }
