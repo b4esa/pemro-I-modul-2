@@ -1,6 +1,6 @@
 import math
-a	= float(input("A = "))
-b	= float(input("B = "))
+a = float(input("A = "))
+b = float(input("B = "))
 c = math.sqrt((b**2)-(a**2))
 kel = a+b+c 
 lu = a*c/2
