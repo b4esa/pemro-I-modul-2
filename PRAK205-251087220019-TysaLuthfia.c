@@ -2,9 +2,9 @@
 #include<math.h>
 int main(){
 int Aa, Bb, Cc, ti, kel, lu; 
-printf("Masukkan	Sisi	Tinggi	=");
+printf("A =");
 scanf("%d", &Aa);
-printf("Masukkan	Sisi	Miring	= ");
+printf("B = ");
 scanf("%d", &Bb);
 Cc =sqrt(pow((Bb),2)-pow((Aa),2)); 
 kel =Aa + Bb + Cc;

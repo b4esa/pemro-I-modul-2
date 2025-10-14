@@ -1,10 +1,10 @@
 import math
-aa	= float(input("Masukkan Sisi Tinggi = "))
-bb	= float(input("Masukkan sisi Miring = "))
-cc = math.sqrt((bb**2)-(aa**2))
-kel = aa+bb+cc 
-lu = aa*cc/2
-print("Alas = {}cm ".format(round(cc))) 
-print("Tinggi = {}cm ".format(round(aa))) 
+a	= float(input("A = "))
+b	= float(input("B = "))
+c = math.sqrt((b**2)-(a**2))
+kel = a+b+c 
+lu = a*c/2
+print("Alas = {}cm ".format(round(c))) 
+print("Tinggi = {}cm ".format(round(a))) 
 print("Keliling = {}cm ".format(round(kel))) 
 print("Luas = {}cm^2 ".format(round(lu)))
