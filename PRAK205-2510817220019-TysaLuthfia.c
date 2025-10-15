@@ -1,5 +1,5 @@
 #include <stdio.h> 
-#include<math.h>
+#include <math.h>
 int main(){
 int Aa, Bb, Cc, ti, kel, lu; 
 printf("A =");

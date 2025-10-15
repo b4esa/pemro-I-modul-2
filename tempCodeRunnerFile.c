@@ -1,15 +1,17 @@
-#include<stdio.h> 
+#include <stdio.h> 
+#include<math.h>
 int main(){
-float r, ti, vol, lu, kel;
-printf("Masukkan jari-jari : ");
-scanf("%f", &r);
-printf("Masukkan tinggi bejana : ");
-scanf("%f", &ti);
-vol = 22 * r * r * ti /7;
-lu = 2 * 22 * r * (r + ti) / 7; 
-kel = 2 * 22 * r / 7;
-printf("Volume :%.2f \n", vol);
-printf("Luas :%.2f \n", lu);
-printf("Keliling :%.2f \n", kel);
+int Aa, Bb, Cc, ti, kel, lu; 
+printf("A =");
+scanf("%d", &Aa);
+printf("B = ");
+scanf("%d", &Bb);
+Cc =sqrt(pow((Bb),2)-pow((Aa),2)); 
+kel =Aa + Bb + Cc;
+lu = Aa * Cc / 2; 
+printf("Alas = %d \n", Cc); 
+printf("Tinggi = %d \n", Aa);
+printf("Keliling = %d \n", kel); 
+printf("Luas = %d cm^2\n", lu);
 return 0;
 }
