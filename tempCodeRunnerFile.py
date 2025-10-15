@@ -1,8 +1,8 @@
-a = float(input("Masukkan Nilai Pertama : "))
-b = float(input("Masukkan Nilai Kedua : "))
-hasil = a + b
-
-if a.is_integer():
-    print(f'Hasil dari penjumlahan nilai pertama "{int(a)}" dan nilai kedua "{b:.2f}" adalah "{hasil:.2f}"')
-else:
-    print(f'Hasil dari penjumlahan nilai pertama "{a:.2f}" dan nilai kedua "{b:.2f}" adalah "{hasil:.2f}"')
+a=int (input("a= "))
+b=int (input("b= "))
+i=int (input("i= "))
+j=int (input("j= "))
+x=int (input("x= "))
+y=int (input("y= "))
+hasil= (a-b)*(i/j)-(x+y)
+print ("{:.3f} " .format(hasil))
