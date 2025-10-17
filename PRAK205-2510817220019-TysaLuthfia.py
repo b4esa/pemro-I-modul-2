@@ -2,7 +2,7 @@ import math
 
 A, B = map(float, input().split())
 
-alas = math.sqrt(B*2 - A*2)
+alas = math.sqrt(B**2 - A**2)
 tinggi = A
 keliling = A + B + alas
 luas = 0.5 * alas * tinggi
