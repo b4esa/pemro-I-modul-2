@@ -1,8 +1,19 @@
-r = float(input("jari-jari : ")) 
-ti = float(input("tinggi bejana : ")) 
-vol = r * r * ti * 22 / 7
-lu = 2 * r * (r + ti) * 22 / 7
-kel = 2 * r * 22 / 7
-print("Volume = {:.2f} ".format(vol))
-print("Luas = {:.2f} ".format(lu))
-print("Keliling = {:.2f} ".format(kel))
+r = float(input())
+t = float(input())
+
+volume = 22/7 * r * r * t
+luas = 2 * 22/7 * r * (r + t)
+keliling = 2 * 22/7 * r
+
+print(f"Volume = {volume:.2f}")
+print(f"Luas = {luas:.2f}")
+print(f"Keliling = {keliling:.2f}")
+
+r, t = map(float, input().split())
+volume = 22/7 * r * r * t
+luas = 2 * 22/7 * r * (r + t)
+keliling = 2 * 22/7 * r
+
+print(f"Volume = {volume:.2f}")
+print(f"Luas = {luas:.2f}")
+print(f"Keliling = {keliling:.2f}")

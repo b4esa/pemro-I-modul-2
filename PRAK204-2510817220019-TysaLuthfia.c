@@ -1,10 +1,8 @@
 #include<stdio.h> 
 int main(){
 float r, ti, vol, lu, kel;
-printf("Masukkan jari-jari : ");
-scanf("%f", &r);
-printf("Masukkan tinggi bejana : ");
-scanf("%f", &ti);
+printf("");
+scanf("%f %f", &r, &ti);
 vol = 22 * r * r * ti /7;
 lu = 2 * 22 * r * (r + ti) / 7; 
 kel = 2 * 22 * r / 7;

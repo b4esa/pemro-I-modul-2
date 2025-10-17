@@ -2,10 +2,8 @@
 #include <math.h>
 int main(){
 int Aa, Bb, Cc, ti, kel, lu; 
-printf("A =");
-scanf("%d", &Aa);
-printf("B = ");
-scanf("%d", &Bb);
+printf("");
+scanf("%d %d", &Aa, &Bb);
 Cc =sqrt(pow((Bb),2)-pow((Aa),2)); 
 kel =Aa + Bb + Cc;
 lu = Aa * Cc / 2; 
